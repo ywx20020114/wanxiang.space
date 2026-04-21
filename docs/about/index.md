@@ -23,6 +23,6 @@
 
 ## 简历
 
-<iframe src="/resume.pdf" width="100%" height="800px" style="border: none;"></iframe>
+<iframe src="/wanxiang.space/resume.pdf" width="100%" height="800px" style="border: none;"></iframe>
 
-[下载简历 (PDF)](/resume.pdf)
+[下载简历 (PDF)](/wanxiang.space/resume.pdf)
