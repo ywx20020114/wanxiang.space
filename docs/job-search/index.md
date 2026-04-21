@@ -9,7 +9,7 @@ const isUnlocked = ref(false)
 const password = ref('')
 const error = ref('')
 
-const correctPassword = 'your-password-here' // Change this to your actual password
+const correctPassword = '__JOB_SEARCH_PASSWORD__'
 
 function checkPassword() {
   if (password.value === correctPassword) {
