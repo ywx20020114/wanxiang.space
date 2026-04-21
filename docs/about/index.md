@@ -3,348 +3,257 @@ layout: page
 title: About
 ---
 
-# 关于我
+# 郁万祥
 
-<div class="profile">
-  <div class="avatar">郁</div>
-  <h1>郁万祥</h1>
-  <p class="subtitle">南开大学 · 软件工程硕士 · 24届</p>
-  <div class="contact">
-    <span>📧 yuwanxiang0114@163.com</span>
-    <span>📱 19815840515</span>
-  </div>
-</div>
+<div class="resume-container">
 
-## 教育背景
+## 基本信息
 
-| 时间 | 学校 | 学历 | 专业 |
-|------|------|------|------|
-| 2024.09 - 至今 | 南开大学 | 硕士 | 软件工程 |
-| 2020.09 - 2024.06 | 南开大学 | 本科 | 软件工程 |
+| | | | |
+|:---:|:---:|:---:|:---:|
+| 📧 yuwanxiang0114@163.com | 📱 19815840515 | 🎂 2002-01 | 🎯 后端开发 / AI应用开发 |
 
-## 专业技能
-
-<div class="skills-grid">
-  <div class="skill-category">
-    <h4>后端技术</h4>
-    <div class="tags">
-      <span class="tag primary">Java</span>
-      <span class="tag">Spring Boot</span>
-      <span class="tag">MySQL</span>
-      <span class="tag">Redis</span>
-      <span class="tag">Kafka</span>
-      <span class="tag">MQTT</span>
-    </div>
-  </div>
-  <div class="skill-category">
-    <h4>AI 应用</h4>
-    <div class="tags">
-      <span class="tag primary">LangChain</span>
-      <span class="tag">LangGraph</span>
-      <span class="tag">RAG</span>
-      <span class="tag">多模型调度</span>
-    </div>
-  </div>
-  <div class="skill-category">
-    <h4>工具</h4>
-    <div class="tags">
-      <span class="tag">Claude Code</span>
-      <span class="tag">Cursor</span>
-      <span class="tag">Git</span>
-      <span class="tag">Linux</span>
-    </div>
-  </div>
-</div>
-
-## 研究经历
-
-<div class="section">
-  <div class="item">
-    <div class="item-header">
-      <h3>RAG检索增强与多智能体系统研究</h3>
-      <span class="date">2025.07 - 2025.12</span>
-    </div>
-    <ul class="details">
-      <li>基于 LangGraph 构建多智能体工作流，编排执行顺序与数据流向</li>
-      <li>角色化上下文压缩缩减65%对话长度，分级模型路由降低60% API成本</li>
-      <li>CoMRA 论文已被 <strong>SANER 2026 (CCF B)</strong> 接受</li>
-    </ul>
-  </div>
-</div>
-
-## 实习经历
-
-<div class="section">
-  <div class="item">
-    <div class="item-header">
-      <h3>Shopee-BJ · AI应用开发实习生</h3>
-      <span class="date">2025.12 - 至今</span>
-    </div>
-    <p class="project-title">多厂商 LLM 定价自动同步 Agent</p>
-    <ul class="details">
-      <li>基于 LangChain LCEL 搭建多步状态流水线：抓取 → 解析 → 差异计算 → MDX更新</li>
-      <li>设计两级名称映射策略 + 白名单闭集约束，确保LLM不产生幻觉</li>
-      <li>OpenClaw 定时任务编排，实现按日同步与变更通知</li>
-    </ul>
-  </div>
-
-  <div class="item">
-    <div class="item-header">
-      <h3>青岛谷岳机器人 · 后端开发实习生</h3>
-      <span class="date">2024.09 - 2025.01</span>
-    </div>
-    <p class="project-title">智能工厂集中监控与可视化平台</p>
-    <ul class="details">
-      <li>MQTT + Kafka 数据缓冲，Redis Hash 缓存查询响应≤50ms</li>
-      <li>MySQL 批量写入压缩95%数据量，支撑历史趋势分析</li>
-      <li>WebSocket 毫秒级主动推送报警，端到端延迟≤50ms</li>
-    </ul>
-  </div>
-</div>
-
-## 项目经历
-
-<div class="section">
-  <div class="item">
-    <div class="item-header">
-      <h3>南开大学心理健康智能平台</h3>
-      <span class="date">2025.08 - 2025.11</span>
-    </div>
-    <ul class="details">
-      <li>实时流式脱敏管道：正则 + NER 模型，"标签化脱敏"保障数据不落盘</li>
-      <li>大模型统一调用层：对话记忆 + 情绪标签 + 多模型自动降级</li>
-      <li>SSE 流式问答 API，端到端透传保障低延迟流畅交互</li>
-    </ul>
-  </div>
-
-  <div class="item">
-    <div class="item-header">
-      <h3>LLM Gateway · Prompts 模块</h3>
-      <span class="date">独立负责</span>
-    </div>
-    <ul class="details">
-      <li>企业级 AI 提示词管理平台：版本管理、双格式渲染引擎</li>
-      <li>GORM 事务保证数据一致性，MySQL 唯一索引 + 409 重试处理并发</li>
-      <li>Redis 三级缓存 + 游标分页优化，查询从 2N+1 次降至 3 次</li>
-    </ul>
-  </div>
-</div>
-
-## 荣誉奖项
-
-<div class="awards">
-  <span class="award">🏆 南开大学软件学院企业实训"优秀个人"</span>
-  <span class="award">🎓 南开大学 2024、2025 公能奖学金</span>
-  <span class="award">🏅 南开大学 2025 文体奖学金</span>
-</div>
-
-## 求职意向
-
-<div class="target">
-  <span>🎯 岗位：后端开发 / 大模型应用开发</span>
-  <span>📍 城市：北京</span>
-  <span>📅 状态：应届生 / 实习生</span>
-</div>
+**求职意向**：北京 · 应届生/实习生 · 可入职 2025年
 
 ---
 
+## 教育背景
+
+| 时间 | 学校 | 学历 | 专业 | 排名 |
+|:---|:---|:---:|:---|:---:|
+| 2024.09 - 至今 | 南开大学 | 硕士 | 软件工程 | - |
+| 2020.09 - 2024.06 | 南开大学 | 本科 | 软件工程 | - |
+
+---
+
+## 技术栈
+
+**语言**：Java · Python · C/C++ · JavaScript
+
+**框架**：Spring Boot · MySQL · Redis · Kafka · MQTT
+
+**AI**：LangChain · LangGraph · RAG · 多模型调度
+
+**工具**：Claude Code · Cursor · Git · Linux
+
+---
+
+## 研究经历
+
+### RAG检索增强与多智能体系统研究
+**南开大学** | 2025.07 - 2025.12
+
+- 基于 LangGraph 构建多智能体工作流，通过条件化循环边实现自动迭代优化
+- 角色化上下文压缩缩减65%对话长度，分级模型路由降低60% API成本
+- CoMRA 论文已被 **SANER 2026 (CCF B)** 接受
+
+---
+
+## 实习经历
+
+### Shopee-BJ · AI应用开发实习生
+**2025.12 - 至今**
+
+#### LLM Gateway 平台开发
+
+独立负责 LLM Gateway 项目两大核心模块的设计与实现：
+
+**1. Prompts 提示词管理平台**
+
+- 企业级 AI 提示词管理：版本管理、双格式渲染引擎，对接 OpenAI/Claude/Gemini 等多厂商
+- **事务一致性**：GORM 事务保证主表与版本表原子操作
+- **并发控制**：MySQL 唯一索引 + 409 冲突重试机制处理版本号乐观分配
+- **性能优化**：Redis 三级缓存 + 游标分页，查询次数从 2N+1 降至 3 次
+- **多层级校验**：OpenAI SDK 格式校验 + JSON 序列化校验 + 变量完整性校验
+
+**2. 多厂商 LLM 定价自动同步 Agent**
+
+- 基于 LangChain LCEL 搭建多步状态流水线：Playwright 抓取 → BeautifulSoup 解析 → 差异计算 → MDX 增量更新
+- **ReAct 智能爬虫**：LLM 自主决策页面交互，动态适应页面结构变化，替代硬编码规则
+- **反幻觉设计**：
+  - 白名单闭集约束 + temperature=0 + 结果校验
+  - LLM 自纠正机制：Round 1 验证 → 回滚异常 → Round 2 自纠正
+- **大表格分块策略**：超过 80 行拆块处理，避免输出截断
+- OpenClaw 定时任务编排 + SeaClaw 变更通知
+
+### 青岛谷岳机器人 · 后端开发实习生
+**2024.09 - 2025.01**
+
+#### 智能工厂集中监控与可视化平台
+
+- **数据采集**：MQTT 接收设备上报，Kafka 作为缓冲层保证数据不丢失
+- **实时处理**：Redis Hash 缓存设备状态，查询响应 ≤50ms；按分钟聚合批量写入 MySQL，数据压缩 95%
+- **实时推送**：WebSocket 毫秒级主动推送，端到端延迟 ≤50ms
+
+---
+
+## 项目经历
+
+### 南开大学心理健康智能平台
+**2025.08 - 2025.11** | 项目核心开发
+
+- **流式脱敏管道**：正则 + NER 模型混合识别，"标签化脱敏"保障原始数据纯内存处理、绝不落盘
+- **三层记忆系统**：
+  - 工作记忆：容量控制 + TTL淘汰 + 智能淘汰策略（重要性/时间/频率加权）
+  - 情景记忆：SQLite + Qdrant 混合存储，两阶段检索（结构化预过滤 + 向量语义检索）
+  - 语义记忆：Neo4j 知识图谱，向量 + 图遍历融合检索
+- **混合检索重排序**：语义相似度(0.7) + 时间近因性(0.2) + 重要性乘数，三维加权重排序
+- **统一调用层**：多模型适配 + 自动降级 + 情绪标签动态优化提示词
+- **流式 API**：SSE 端到端透传，"到达即写即清空"消除攒包顿挫感
+
+---
+
+## 荣誉奖项
+
+| |
+|:---|
+| 🏆 南开大学软件学院企业实训"优秀个人" |
+| 🎓 南开大学 2024、2025 公能奖学金 |
+| 🏅 南开大学 2025 文体奖学金 |
+
+---
+
+## Vibe Coding
+
+Claude Code · Cursor —— 熟练运用 AI 编程工具进行项目快速迭代
+
+</div>
+
 <style scoped>
-.profile {
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
   text-align: center;
-  padding: 40px 0;
-  border-bottom: 1px solid var(--vp-c-divider);
-  margin-bottom: 40px;
-}
-
-.avatar {
-  width: 80px;
-  height: 80px;
-  background: linear-gradient(135deg, #646cff, #9252ff);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2em;
-  color: white;
-  margin: 0 auto 16px;
-}
-
-.profile h1 {
-  font-size: 2em;
-  margin: 0 0 8px;
-}
-
-.subtitle {
-  font-size: 1.1em;
-  color: var(--vp-c-text-2);
-  margin: 0 0 16px;
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  flex-wrap: wrap;
-  font-size: 0.95em;
-}
-
-.contact span {
-  color: var(--vp-c-text-2);
+  font-size: 2.2em;
+  margin-bottom: 8px;
 }
 
 h2 {
-  margin-top: 40px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--vp-c-divider);
-  font-size: 1.3em;
+  font-size: 1.2em;
+  color: var(--vp-c-brand-1);
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 32px;
+  margin-bottom: 12px;
 }
 
 h3 {
-  font-size: 1.05em;
-  margin: 0;
+  font-size: 1em;
+  color: var(--vp-c-text-1);
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 h4 {
-  font-size: 0.9em;
-  margin: 0 0 10px;
+  font-size: 0.95em;
   color: var(--vp-c-text-2);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-/* Skills */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  margin: 20px 0;
-}
-
-.skill-category {
-  padding: 16px;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.tag {
-  background: var(--vp-c-bg);
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 0.85em;
-}
-
-.tag.primary {
-  background: var(--vp-c-brand-1);
-  color: white;
-}
-
-/* Section */
-.section {
-  margin: 20px 0;
-}
-
-.item {
-  padding: 20px;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-  margin-bottom: 16px;
-}
-
-.item:last-child {
-  margin-bottom: 0;
-}
-
-.item-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  margin-top: 4px;
   margin-bottom: 8px;
-  flex-wrap: wrap;
-  gap: 8px;
 }
 
-.item-header h3 {
-  color: var(--vp-c-brand-1);
+hr {
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+  margin: 24px 0;
 }
 
-.date {
-  color: var(--vp-c-text-2);
-  font-size: 0.9em;
-  white-space: nowrap;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
 }
 
-.project-title {
-  color: var(--vp-c-text-2);
-  margin: 0 0 12px;
+th, td {
+  padding: 8px 12px;
+  text-align: left;
   font-size: 0.95em;
 }
 
-.details {
-  margin: 0;
+th {
+  font-weight: 600;
+  background: transparent;
+}
+
+ul {
+  margin: 8px 0;
   padding-left: 20px;
 }
 
-.details li {
+li {
   margin-bottom: 6px;
   line-height: 1.6;
   color: var(--vp-c-text-2);
 }
 
-.details li:last-child {
-  margin-bottom: 0;
+strong {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
 }
 
-/* Awards */
-.awards {
+p {
+  margin: 4px 0;
+  color: var(--vp-c-text-2);
+}
+
+.info-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin: 20px 0;
-}
-
-.award {
-  background: var(--vp-c-bg-soft);
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 0.9em;
-}
-
-/* Target */
-.target {
-  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
-  padding: 20px;
-  background: linear-gradient(135deg, var(--vp-c-bg-soft), var(--vp-c-bg));
-  border-radius: 8px;
-  margin: 20px 0;
-}
-
-.target span {
+  margin-bottom: 16px;
+  color: var(--vp-c-text-2);
   font-size: 0.95em;
 }
 
-/* Table */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 16px 0;
+.info-row span {
+  white-space: nowrap;
 }
 
-th, td {
-  padding: 12px 16px;
-  text-align: left;
-  border-bottom: 1px solid var(--vp-c-divider);
+.section {
+  margin-bottom: 8px;
 }
 
-th {
-  background: var(--vp-c-bg-soft);
+.project-title {
   font-weight: 600;
+  color: var(--vp-c-brand-1);
+  margin: 12px 0 8px;
+}
+
+.sub-title {
+  display: inline-block;
+  background: var(--vp-c-bg-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.tag {
+  background: var(--vp-c-bg-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.award-row {
+  padding: 6px 0;
+}
+
+.award-row .tag {
+  background: var(--vp-c-bg-soft);
+  padding: 4px 12px;
+  border-radius: 6px;
 }
 </style>
