@@ -4,6 +4,8 @@ export default defineConfig({
   title: 'wanxiang.space',
   description: 'Personal homepage - Resume, LeetCode, Job Search & Learning Records',
 
+  base: '/wanxiang.space/',
+
   srcDir: '.',
   markdown: {
     theme: {
