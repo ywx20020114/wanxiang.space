@@ -3,356 +3,512 @@ layout: page
 title: About
 ---
 
-<div class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-content">
-    <div class="avatar">郁</div>
-    <h1>郁万祥</h1>
-    <p class="subtitle">南开大学 · 软件工程硕士 · AI应用开发</p>
-    <div class="contact-row">
-      <span class="contact-item">📧 yuwanxiang0114@163.com</span>
-      <span class="contact-item">📱 19815840515</span>
-      <span class="contact-item">📍 北京</span>
+<div class="page-wrapper">
+  <!-- Header -->
+  <header class="header">
+    <div class="header-pattern"></div>
+    <div class="header-content">
+      <div class="avatar-ring">
+        <div class="avatar">郁</div>
+      </div>
+      <div class="header-text">
+        <h1>郁万祥</h1>
+        <p class="title-en">Wanxiang Yu</p>
+        <div class="header-tags">
+          <span class="tag-chip">南开大学</span>
+          <span class="tag-chip">软件工程</span>
+          <span class="tag-chip">硕士</span>
+          <span class="tag-chip highlight">AI 应用开发</span>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="resume-container">
-
-## 🎯 求职意向
-
-<div class="target-card">
-  <span>后端开发</span>
-  <span class="divider">|</span>
-  <span>大模型应用开发</span>
-  <span class="divider">|</span>
-  <span>应届生/实习生</span>
-  <span class="divider">|</span>
-  <span>可入职 2025</span>
-</div>
-
----
-
-## 🎓 教育背景
-
-<div class="edu-card">
-  <div class="edu-header">
-    <h3 class="school">南开大学</h3>
-    <span class="degree-badge">硕士</span>
-  </div>
-  <p class="edu-info">软件工程 | 2024.09 - 至今</p>
-  <div class="edu-tags">
-    <span class="tag">软件工程</span>
-    <span class="tag">学硕</span>
-  </div>
-</div>
-
-<div class="edu-card">
-  <div class="edu-header">
-    <h3 class="school">南开大学</h3>
-    <span class="degree-badge">本科</span>
-  </div>
-  <p class="edu-info">软件工程 | 2020.09 - 2024.06</p>
-</div>
-
----
-
-## ⚡ 技术栈
-
-<div class="skills-grid">
-  <div class="skill-card">
-    <div class="skill-icon">☕</div>
-    <h4>后端技术</h4>
-    <div class="tags">
-      <span class="tag primary">Java</span>
-      <span class="tag">Spring Boot</span>
-      <span class="tag">MySQL</span>
-      <span class="tag">Redis</span>
-      <span class="tag">Kafka</span>
+    <div class="header-contact">
+      <a href="mailto:yuwanxiang0114@163.com" class="contact-link">yuwanxiang0114@163.com</a>
+      <span class="separator">·</span>
+      <span>19815840515</span>
+      <span class="separator">·</span>
+      <span>北京</span>
     </div>
-  </div>
-  <div class="skill-card">
-    <div class="skill-icon">🤖</div>
-    <h4>AI 应用</h4>
-    <div class="tags">
-      <span class="tag primary">LangChain</span>
-      <span class="tag">LangGraph</span>
-      <span class="tag">RAG</span>
-      <span class="tag">多模型调度</span>
-    </div>
-  </div>
-  <div class="skill-card">
-    <div class="skill-icon">🛠️</div>
-    <h4>开发工具</h4>
-    <div class="tags">
-      <span class="tag">Claude Code</span>
-      <span class="tag">Cursor</span>
-      <span class="tag">Git</span>
-      <span class="tag">Linux</span>
-    </div>
+  </header>
+
+  <div class="resume-body">
+
+    <!-- Objective -->
+    <section class="section objective">
+      <h2 class="section-title">
+        <span class="title-icon">◎</span>
+        求职意向
+      </h2>
+      <div class="objective-content">
+        <span class="obj-item">后端开发</span>
+        <span class="obj-divider">/</span>
+        <span class="obj-item">大模型应用开发</span>
+        <span class="obj-divider">/</span>
+        <span class="obj-item accent">应届生 · 可入职 2025</span>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="title-icon">◎</span>
+        教育背景
+      </h2>
+      <div class="edu-list">
+        <div class="edu-item">
+          <div class="edu-marker"></div>
+          <div class="edu-content">
+            <div class="edu-header">
+              <h3>南开大学</h3>
+              <span class="edu-degree">硕士</span>
+            </div>
+            <p class="edu-info">软件工程 · 2024.09 - 至今</p>
+            <div class="edu-tags">
+              <span class="mini-tag">研究方向</span>
+              <span class="mini-tag blue">AI / 大模型</span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-marker"></div>
+          <div class="edu-content">
+            <div class="edu-header">
+              <h3>南开大学</h3>
+              <span class="edu-degree">本科</span>
+            </div>
+            <p class="edu-info">软件工程 · 2020.09 - 2024.06</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="title-icon">◎</span>
+        研究经历
+      </h2>
+      <div class="research-card">
+        <div class="paper-badge">
+          <span class="paper-icon">📄</span>
+          <span>Paper · SANER 2026 (CCF B)</span>
+        </div>
+        <h3>RAG检索增强与多智能体系统研究</h3>
+        <p class="research-period">2025.07 - 2025.12</p>
+        <ul class="research-points">
+          <li>基于 LangGraph 构建多智能体工作流，<span class="highlight-text">条件化循环边</span>实现自动迭代优化</li>
+          <li>角色化上下文压缩缩减 <span class="metric">65%</span> 对话长度，分级模型路由降低 <span class="metric">60%</span> API成本</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="title-icon">◎</span>
+        技术栈
+      </h2>
+      <div class="skills-matrix">
+        <div class="skill-group">
+          <h4>后端</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">Kafka</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>AI / LLM</h4>
+          <div class="skill-tags">
+            <span class="skill-tag primary">LangChain</span>
+            <span class="skill-tag primary">LangGraph</span>
+            <span class="skill-tag primary">RAG</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>工具</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Claude Code</span>
+            <span class="skill-tag">Cursor</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="title-icon">◎</span>
+        实习经历
+      </h2>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <div class="exp-title-row">
+            <h3>Shopee-BJ</h3>
+            <span class="exp-badge">AI应用开发实习生</span>
+          </div>
+          <p class="exp-period">2025.12 - 至今</p>
+        </div>
+
+        <div class="exp-project">
+          <h4>LLM Gateway 平台开发</h4>
+
+          <div class="project-block">
+            <span class="project-label">Prompts 模块</span>
+            <ul class="exp-points">
+              <li><strong>事务一致性</strong>：GORM 事务保证主表与版本表原子操作</li>
+              <li><strong>并发控制</strong>：MySQL 唯一索引 + 409 重试机制</li>
+              <li><strong>性能优化</strong>：Redis 三级缓存 + 游标分页，查询 <span class="metric">2N+1 → 3</span></li>
+              <li><strong>多层级校验</strong>：SDK格式 + JSON序列化 + 变量完整性</li>
+            </ul>
+          </div>
+
+          <div class="project-block">
+            <span class="project-label">定价 Agent</span>
+            <ul class="exp-points">
+              <li>LangChain LCEL 多步流水线：抓取 → 解析 → 差异计算 → MDX更新</li>
+              <li><strong>ReAct 智能爬虫</strong>：LLM 自主决策页面交互</li>
+              <li><strong>反幻觉设计</strong>：白名单闭集 + temperature=0 + 自纠正</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <div class="exp-title-row">
+            <h3>青岛谷岳机器人</h3>
+            <span class="exp-badge secondary">后端开发实习生</span>
+          </div>
+          <p class="exp-period">2024.09 - 2025.01</p>
+        </div>
+        <div class="exp-project">
+          <h4>智能工厂集中监控与可视化平台</h4>
+          <ul class="exp-points">
+            <li>MQTT + Kafka 数据缓冲，Redis Hash 查询响应 <span class="metric">≤50ms</span></li>
+            <li>MySQL 批量写入压缩 <span class="metric">95%</span> 数据量</li>
+            <li>WebSocket 毫秒级推送，端到端延迟 <span class="metric">≤50ms</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="title-icon">◎</span>
+        项目经历
+      </h2>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>南开大学心理健康智能平台</h3>
+          <span class="project-period">2025.08 - 2025.11</span>
+        </div>
+        <p class="project-role">核心开发成员</p>
+
+        <div class="tech-highlight">
+          <span class="tech-label">三层记忆系统</span>
+          <div class="memory-layers">
+            <div class="layer">
+              <span class="layer-name">工作记忆</span>
+              <span class="layer-desc">容量控制 + TTL淘汰 + 加权淘汰策略</span>
+            </div>
+            <div class="layer">
+              <span class="layer-name">情景记忆</span>
+              <span class="layer-desc">SQLite + Qdrant 两阶段检索</span>
+            </div>
+            <div class="layer">
+              <span class="layer-name">语义记忆</span>
+              <span class="layer-desc">Neo4j 知识图谱融合检索</span>
+            </div>
+          </div>
+        </div>
+
+        <ul class="exp-points">
+          <li>流式脱敏：正则 + NER 模型混合识别，数据纯内存处理绝不落盘</li>
+          <li>混合检索重排：语义相似度(<span class="metric">0.7</span>) + 时间近因性(<span class="metric">0.2</span>) + 重要性乘数</li>
+          <li>SSE 流式 API：端到端透传，<span class="metric">到达即清空</span>消除顿挫感</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Awards -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="title-icon">◎</span>
+        荣誉奖项
+      </h2>
+      <div class="awards-grid">
+        <div class="award-card">
+          <span class="award-icon">🏆</span>
+          <div class="award-text">
+            <p class="award-title">企业实训"优秀个人"</p>
+            <p class="award-org">南开大学软件学院</p>
+          </div>
+        </div>
+        <div class="award-card">
+          <span class="award-icon">🎓</span>
+          <div class="award-text">
+            <p class="award-title">公能奖学金</p>
+            <p class="award-org">2024 · 2025</p>
+          </div>
+        </div>
+        <div class="award-card">
+          <span class="award-icon">🏅</span>
+          <div class="award-text">
+            <p class="award-title">文体奖学金</p>
+            <p class="award-org">2025</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </div>
 
----
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
-## 💼 研究经历
+.page-wrapper {
+  --primary: #1a365d;
+  --primary-light: #2c5282;
+  --accent: #3182ce;
+  --accent-light: #63b3ed;
+  --bg: #f7fafc;
+  --bg-card: #ffffff;
+  --text: #1a202c;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --border: #e2e8f0;
+  --highlight: #ebf8ff;
 
-<div class="experience-card research">
-  <div class="exp-header">
-    <h3>RAG检索增强与多智能体系统研究</h3>
-    <span class="exp-date">2025.07 - 2025.12</span>
-  </div>
-  <div class="highlight-box">
-    <span class="badge success">🏆 论文已被 SANER 2026 (CCF B) 接受</span>
-  </div>
-  <ul class="details">
-    <li>基于 LangGraph 构建多智能体工作流，条件化循环边实现自动迭代优化</li>
-    <li>角色化上下文压缩缩减<strong>65%</strong>对话长度，分级模型路由降低<strong>60%</strong> API成本</li>
-  </ul>
-</div>
-
----
-
-## 💼 实习经历
-
-<div class="experience-card">
-  <div class="exp-header">
-    <h3>Shopee-BJ</h3>
-    <span class="company-badge">AI应用开发实习生</span>
-  </div>
-  <p class="exp-period">2025.12 - 至今</p>
-
-  <h4 class="project-title">LLM Gateway 平台开发</h4>
-
-  <div class="sub-project">
-    <h5>Prompts 提示词管理平台</h5>
-    <ul class="details">
-      <li><strong>事务一致性</strong>：GORM 事务保证主表与版本表原子操作</li>
-      <li><strong>并发控制</strong>：MySQL 唯一索引 + 409 冲突重试机制</li>
-      <li><strong>性能优化</strong>：Redis 三级缓存 + 游标分页，查询从 2N+1 降至 <strong>3 次</strong></li>
-      <li><strong>多层级校验</strong>：OpenAI SDK 格式校验 + JSON 序列化校验 + 变量完整性校验</li>
-    </ul>
-  </div>
-
-  <div class="sub-project">
-    <h5>多厂商 LLM 定价自动同步 Agent</h5>
-    <ul class="details">
-      <li>基于 LangChain LCEL 搭建多步状态流水线：抓取 → 解析 → 差异计算 → MDX更新</li>
-      <li><strong>ReAct 智能爬虫</strong>：LLM 自主决策页面交互，替代硬编码规则</li>
-      <li><strong>反幻觉设计</strong>：白名单闭集约束 + temperature=0 + LLM 自纠正机制</li>
-    </ul>
-  </div>
-</div>
-
-<div class="experience-card">
-  <div class="exp-header">
-    <h3>青岛谷岳机器人</h3>
-    <span class="company-badge">后端开发实习生</span>
-  </div>
-  <p class="exp-period">2024.09 - 2025.01</p>
-
-  <h4 class="project-title">智能工厂集中监控与可视化平台</h4>
-  <ul class="details">
-    <li>MQTT + Kafka 数据缓冲，Redis Hash 查询响应 ≤<strong>50ms</strong></li>
-    <li>MySQL 批量写入数据压缩 <strong>95%</strong>，支撑历史趋势分析</li>
-    <li>WebSocket 毫秒级主动推送，端到端延迟 ≤<strong>50ms</strong></li>
-  </ul>
-</div>
-
----
-
-## 🚀 项目经历
-
-<div class="experience-card highlight">
-  <div class="exp-header">
-    <h3>南开大学心理健康智能平台</h3>
-    <span class="exp-date">2025.08 - 2025.11</span>
-  </div>
-  <p class="project-desc">面向全校师生的心理支持平台，核心开发成员</p>
-
-  <div class="sub-project">
-    <h5>三层记忆系统架构</h5>
-    <ul class="details">
-      <li><strong>工作记忆</strong>：容量控制 + TTL淘汰 + 重要性/频率加权淘汰策略</li>
-      <li><strong>情景记忆</strong>：SQLite + Qdrant 混合存储，两阶段检索</li>
-      <li><strong>语义记忆</strong>：Neo4j 知识图谱，向量 + 图遍历融合检索</li>
-    </ul>
-  </div>
-
-  <div class="sub-project">
-    <h5>其他技术亮点</h5>
-    <ul class="details">
-      <li>流式脱敏：正则 + NER 模型混合识别，数据纯内存处理绝不落盘</li>
-      <li>混合检索重排：语义相似度(0.7) + 时间近因性(0.2) + 重要性乘数</li>
-      <li>SSE 流式 API：端到端透传，"到达即清空"消除顿挫感</li>
-    </ul>
-  </div>
-</div>
-
----
-
-## 🏆 荣誉奖项
-
-<div class="awards-row">
-  <div class="award-item">
-    <span class="award-icon">🏆</span>
-    <span>企业实训"优秀个人"</span>
-  </div>
-  <div class="award-item">
-    <span class="award-icon">🎓</span>
-    <span>公能奖学金 (2024, 2025)</span>
-  </div>
-  <div class="award-item">
-    <span class="award-icon">🏅</span>
-    <span>文体奖学金 (2025)</span>
-  </div>
-</div>
-
----
-
-## ✨ Vibe Coding
-
-<div class="vibe-section">
-  <span class="vibe-tag">Claude Code</span>
-  <span class="vibe-tag">Cursor</span>
-  <span class="vibe-desc">熟练运用 AI 编程工具进行项目快速迭代</span>
-</div>
-
-</div>
-
-<style scoped>
-/* Hero Section */
-.hero {
-  position: relative;
-  background: linear-gradient(135deg, #e8f4fc 0%, #d4e9f7 50%, #c0ddf2 100%);
-  padding: 80px 20px 60px;
-  text-align: center;
-  overflow: hidden;
-  margin-bottom: 40px;
+  font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
 }
 
-.hero-bg {
+/* Header */
+.header {
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #3182ce 100%);
+  color: white;
+  padding: 64px 24px 48px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-pattern {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background:
-    radial-gradient(circle at 20% 80%, rgba(100, 150, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(100, 180, 255, 0.1) 0%, transparent 50%);
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(255,255,255,0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255,255,255,0.03) 0%, transparent 40%);
   pointer-events: none;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 1;
+.header::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #63b3ed, #3182ce, #2c5282);
+}
+
+.header-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.avatar-ring {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.05));
+  padding: 4px;
+  flex-shrink: 0;
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(135deg, #4a90d9, #6ab0ff);
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
+  background: rgba(255,255,255,0.95);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2.5em;
-  color: white;
-  margin: 0 auto 20px;
-  box-shadow: 0 8px 32px rgba(74, 144, 217, 0.3);
+  color: var(--primary);
+  font-weight: 600;
+  font-family: 'Crimson Pro', serif;
 }
 
-.hero h1 {
-  font-size: 2.5em;
-  margin: 0 0 8px;
-  background: linear-gradient(135deg, #2c5282, #4a90d9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.header-text h1 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 2.4em;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 2px;
 }
 
-.subtitle {
-  font-size: 1.1em;
-  color: #5a7a9a;
-  margin: 0 0 16px;
+.title-en {
+  font-size: 1em;
+  opacity: 0.8;
+  margin: 4px 0 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
-.contact-row {
+.header-tags {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 8px;
 }
 
-.contact-item {
-  color: #5a7a9a;
-  font-size: 0.95em;
+.tag-chip {
+  background: rgba(255,255,255,0.15);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  backdrop-filter: blur(4px);
 }
 
-/* Container */
-.resume-container {
+.tag-chip.highlight {
+  background: rgba(99, 179, 237, 0.4);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.header-contact {
+  max-width: 900px;
+  margin: 24px auto 0;
+  font-size: 0.9em;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  color: #90cdf4;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  opacity: 0.5;
+}
+
+/* Body */
+.resume-body {
   max-width: 900px;
   margin: 0 auto;
-  padding: 0 24px 60px;
+  padding: 48px 24px;
 }
 
-h2 {
-  font-size: 1.15em;
-  color: #4a90d9;
-  border-bottom: none;
-  padding: 0;
-  margin: 32px 0 16px;
+/* Section */
+.section {
+  margin-bottom: 48px;
 }
 
-h3 {
-  font-size: 1.05em;
-  color: #2c5282;
-  margin: 0;
-}
-
-h4 {
-  font-size: 0.95em;
-  color: #4a90d9;
-  margin: 8px 0;
-}
-
-h5 {
-  font-size: 0.9em;
-  color: #6a9fd9;
-  margin: 8px 0;
-}
-
-hr {
-  border: none;
-  border-top: 1px dashed #d4e9f7;
-  margin: 28px 0;
-}
-
-/* Target Card */
-.target-card {
-  background: linear-gradient(135deg, #e8f4fc, #d4e9f7);
-  padding: 16px 24px;
-  border-radius: 12px;
+.section-title {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border);
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-icon {
+  color: var(--accent);
+  font-size: 1.1em;
+}
+
+/* Objective */
+.objective-content {
+  background: linear-gradient(135deg, var(--highlight), #f0f7ff);
+  border: 1px solid #bee3f8;
+  border-radius: 8px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
-  align-items: center;
   font-size: 0.95em;
-  color: #2c5282;
 }
 
-.divider {
-  color: #a0c4e8;
+.obj-item {
+  color: var(--text);
+}
+
+.obj-item.accent {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.obj-divider {
+  color: var(--text-muted);
 }
 
 /* Education */
-.edu-card {
-  background: linear-gradient(135deg, #f8fbfe, #eef6fc);
-  border-left: 4px solid #4a90d9;
+.edu-list {
+  position: relative;
+  padding-left: 24px;
+}
+
+.edu-list::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent), var(--border));
+}
+
+.edu-item {
+  position: relative;
+  padding: 16px 0 16px 24px;
+}
+
+.edu-marker {
+  position: absolute;
+  left: -24px;
+  top: 20px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid var(--accent);
+  z-index: 1;
+}
+
+.edu-content {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
   padding: 16px 20px;
-  border-radius: 0 8px 8px 0;
-  margin-bottom: 12px;
 }
 
 .edu-header {
@@ -362,239 +518,377 @@ hr {
   margin-bottom: 4px;
 }
 
-.school {
-  color: #2c5282;
+.edu-header h3 {
+  font-size: 1.1em;
+  color: var(--primary);
+  font-weight: 600;
 }
 
-.degree-badge {
-  background: #4a90d9;
+.edu-degree {
+  background: var(--accent);
   color: white;
   padding: 2px 10px;
   border-radius: 12px;
-  font-size: 0.8em;
+  font-size: 0.75em;
+  font-weight: 500;
 }
 
 .edu-info {
-  color: #5a7a9a;
-  margin: 4px 0;
+  color: var(--text-secondary);
   font-size: 0.9em;
+  margin: 0;
 }
 
 .edu-tags {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   margin-top: 8px;
 }
 
-/* Skills Grid */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
-  margin: 16px 0;
-}
-
-.skill-card {
-  background: linear-gradient(135deg, #f8fbfe, #eef6fc);
-  border-radius: 12px;
-  padding: 20px;
-  text-align: center;
-}
-
-.skill-icon {
-  font-size: 2em;
-  margin-bottom: 8px;
-}
-
-.skill-card h4 {
-  color: #2c5282;
-  margin-bottom: 12px;
-}
-
-/* Tags */
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 6px;
-}
-
-.tag {
-  background: white;
-  color: #5a7a9a;
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 0.85em;
-  border: 1px solid #d4e9f7;
-}
-
-.tag.primary {
-  background: #4a90d9;
-  color: white;
-  border-color: #4a90d9;
-}
-
-/* Experience Card */
-.experience-card {
-  background: linear-gradient(135deg, #f8fbfe, #f0f6fc);
-  border-radius: 12px;
-  padding: 20px 24px;
-  margin-bottom: 16px;
-  border: 1px solid #e0ecf5;
-}
-
-.experience-card.research {
-  border-left: 4px solid #4a90d9;
-}
-
-.experience-card.highlight {
-  background: linear-gradient(135deg, #e8f4fc, #dce9f6);
-  border: 2px solid #4a90d9;
-}
-
-.exp-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 4px;
-}
-
-.exp-header h3 {
-  color: #2c5282;
-}
-
-.exp-date {
-  color: #8ab4d8;
-  font-size: 0.85em;
-}
-
-.company-badge {
-  background: linear-gradient(135deg, #6ab0ff, #4a90d9);
-  color: white;
-  padding: 4px 12px;
-  border-radius: 12px;
+.mini-tag {
+  background: var(--bg);
+  color: var(--text-muted);
+  padding: 2px 8px;
+  border-radius: 4px;
   font-size: 0.8em;
 }
 
-.exp-period {
-  color: #8ab4d8;
-  font-size: 0.9em;
+.mini-tag.blue {
+  background: var(--highlight);
+  color: var(--accent);
+}
+
+/* Research Card */
+.research-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  position: relative;
+}
+
+.paper-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  color: #92400e;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.8em;
+  margin-bottom: 12px;
+}
+
+.research-card h3 {
+  font-size: 1.05em;
+  color: var(--primary);
+  margin: 0 0 4px;
+}
+
+.research-period {
+  color: var(--text-muted);
+  font-size: 0.85em;
   margin: 0 0 12px;
 }
 
-.project-title {
-  color: #4a90d9;
-  font-weight: 600;
-  margin: 12px 0 8px;
-  padding-bottom: 8px;
-  border-bottom: 1px dashed #d4e9f7;
-}
-
-.sub-project {
-  margin: 12px 0;
-  padding-left: 12px;
-  border-left: 2px solid #c0ddf2;
-}
-
-.highlight-box {
-  margin: 8px 0;
-}
-
-.badge {
-  display: inline-block;
-  padding: 4px 12px;
-  border-radius: 6px;
-  font-size: 0.85em;
-}
-
-.badge.success {
-  background: #d1fae5;
-  color: #065f46;
-}
-
-/* Details */
-.details {
-  margin: 8px 0;
+.research-points {
+  margin: 0;
   padding-left: 18px;
 }
 
-.details li {
+.research-points li {
   margin-bottom: 6px;
-  line-height: 1.6;
-  color: #4a5568;
+  color: var(--text-secondary);
+  line-height: 1.5;
 }
 
-.details strong {
-  color: #2c5282;
+.highlight-text {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* Metrics */
+.metric {
+  font-family: 'JetBrains Mono', monospace;
+  background: var(--highlight);
+  color: var(--accent);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+/* Skills Matrix */
+.skills-matrix {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.skill-group {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.skill-group h4 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-tag {
+  background: var(--bg);
+  color: var(--text-secondary);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  border: 1px solid var(--border);
+}
+
+.skill-tag.primary {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+/* Experience Cards */
+.exp-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+}
+
+.exp-header {
+  margin-bottom: 12px;
+}
+
+.exp-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.exp-title-row h3 {
+  font-size: 1.1em;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.exp-badge {
+  background: linear-gradient(135deg, var(--accent), var(--primary));
+  color: white;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+.exp-badge.secondary {
+  background: var(--text-secondary);
+}
+
+.exp-period {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin: 0;
+}
+
+.exp-project h4 {
+  font-size: 0.95em;
+  color: var(--accent);
+  margin: 12px 0 8px;
+  font-weight: 500;
+}
+
+.project-block {
+  margin: 12px 0;
+  padding-left: 16px;
+  border-left: 2px solid var(--border);
+}
+
+.project-label {
+  display: inline-block;
+  background: var(--bg);
+  color: var(--text-secondary);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  margin-bottom: 8px;
+}
+
+.exp-points {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.exp-points li {
+  margin-bottom: 6px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.exp-points strong {
+  color: var(--primary);
+}
+
+/* Project Card */
+.project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.project-header h3 {
+  font-size: 1.05em;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.project-period {
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+.project-role {
+  color: var(--accent);
+  font-size: 0.9em;
+  margin: 0 0 16px;
+}
+
+.tech-highlight {
+  background: var(--highlight);
+  border: 1px solid #bee3f8;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+}
+
+.tech-label {
+  font-size: 0.8em;
+  color: var(--accent);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.memory-layers {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.layer {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.layer-name {
+  font-weight: 500;
+  color: var(--primary);
+  font-size: 0.9em;
+  min-width: 70px;
+}
+
+.layer-desc {
+  font-size: 0.85em;
+  color: var(--text-secondary);
 }
 
 /* Awards */
-.awards-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin: 16px 0;
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
 }
 
-.award-item {
+.award-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  background: linear-gradient(135deg, #fef9e7, #fef3cd);
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-size: 0.9em;
-  color: #7c6a3e;
+  gap: 12px;
 }
 
 .award-icon {
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 
-/* Vibe */
-.vibe-section {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin: 16px 0;
+.award-text {
+  flex: 1;
 }
 
-.vibe-tag {
-  background: linear-gradient(135deg, #2c5282, #4a90d9);
-  color: white;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.9em;
-}
-
-.vibe-desc {
-  color: #5a7a9a;
+.award-title {
+  font-weight: 500;
+  color: var(--text);
+  margin: 0 0 2px;
   font-size: 0.95em;
+}
+
+.award-org {
+  color: var(--text-muted);
+  margin: 0;
+  font-size: 0.8em;
 }
 
 /* Responsive */
 @media (max-width: 600px) {
-  .hero {
-    padding: 40px 16px;
+  .header {
+    padding: 48px 16px 32px;
   }
 
-  .hero h1 {
-    font-size: 2em;
-  }
-
-  .contact-row {
+  .header-content {
     flex-direction: column;
-    gap: 8px;
+    text-align: center;
   }
 
-  .skills-grid {
-    grid-template-columns: 1fr;
+  .header-text h1 {
+    font-size: 1.8em;
   }
 
-  .exp-header {
+  .header-tags {
+    justify-content: center;
+  }
+
+  .header-contact {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .resume-body {
+    padding: 32px 16px;
+  }
+
+  .exp-title-row {
     flex-direction: column;
     align-items: flex-start;
   }
