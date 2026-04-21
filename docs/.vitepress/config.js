@@ -40,7 +40,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/wanxiang-yu' }
+      { icon: 'github', link: 'https://github.com/ywx20020114/wanxiang.space' }
     ],
 
     footer: {
