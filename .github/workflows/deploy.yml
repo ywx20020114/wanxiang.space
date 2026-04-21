@@ -33,10 +33,10 @@ jobs:
       - name: Inject password
         run: |
           sed -i "s/__JOB_SEARCH_PASSWORD__/$JOB_SEARCH_PASSWORD/g" docs/job-search/index.md
-
-      - name: Build VitePress
         env:
           JOB_SEARCH_PASSWORD: ${{ secrets.JOB_SEARCH_PASSWORD }}
+
+      - name: Build VitePress
         run: npm run build
 
       - name: Upload artifact
