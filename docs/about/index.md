@@ -225,7 +225,7 @@ title: About
 .hero {
   position: relative;
   background: linear-gradient(135deg, #e8f4fc 0%, #d4e9f7 50%, #c0ddf2 100%);
-  padding: 60px 20px;
+  padding: 80px 20px 60px;
   text-align: center;
   overflow: hidden;
   margin-bottom: 40px;
