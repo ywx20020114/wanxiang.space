@@ -1,80 +1,72 @@
 # wanxiang.space
 
-Personal homepage hosted on GitHub Pages.
+🔗 **访问网站**: https://ywx20020114.github.io/wanxiang.space
 
-## Quick Start
+南开大学 | 软件工程 | 求职中
 
-```bash
-# Install dependencies
-npm install
+## 项目架构
 
-# Local development
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+```
+wanxiang.space/
+├── docs/                          # 页面内容 (Markdown)
+│   ├── index.md                   # 首页
+│   ├── about/                     # 个人介绍
+│   │   └── index.md
+│   ├── leetcode/                  # 刷题记录
+│   │   ├── index.md
+│   │   └── solutions/             # 题目解答
+│   │       └── two-sum.md
+│   ├── job-search/                # 找工作记录 (密码保护)
+│   │   └── index.md
+│   └── learning/                  # 学习记录
+│       ├── index.md
+│       └── agent/                 # Agent 学习笔记
+│           └── agent-basics.md
+├── leetcode-solutions/            # 刷题记录源文件
+├── public/                        # 静态资源
+│   ├── favicon.svg
+│   └── resume.pdf                 # 简历 PDF
+└── package.json
 ```
 
-## Content Management
+## 添加内容
 
-### Adding LeetCode Solutions
+### 添加刷题记录
 
-Create a new markdown file in `leetcode-solutions/` folder:
+在 `leetcode-solutions/` 目录下创建 Markdown 文件：
 
 ```markdown
 ---
-title: "Problem Title"
+title: "题目名称"
 problemId: 1234
 difficulty: Easy
 tags: ["array", "hash-table"]
 date: 2024-01-15
 ---
 
-# Problem Title
+# 题目描述
 
-Your solution content here...
+解题思路和代码...
 ```
 
-### Adding Learning Records
+### 添加学习笔记
 
-Create a new markdown file in `docs/learning/agent/` folder:
+在 `docs/learning/agent/` 目录下创建 Markdown 文件：
 
 ```markdown
 ---
-title: "Learning Topic"
-category: "Category"
+title: "笔记标题"
+category: "类别"
 date: 2024-01-15
-description: "Brief description"
 ---
 
-Your content here...
+笔记内容...
 ```
 
-### Job Search Password
+### 修改找工作记录密码
 
-To change the password for the job search page, edit `docs/job-search/index.md` and modify the `correctPassword` variable.
+编辑 `docs/job-search/index.md`，修改 `correctPassword` 变量值。
 
-## GitHub Deployment
+---
 
-Push to `main` branch → GitHub Actions automatically builds and deploys to GitHub Pages.
-
-## Project Structure
-
-```
-wanxiang.space/
-├── docs/                      # VitePress documentation
-│   ├── .vitepress/
-│   │   └── config.js          # VitePress configuration
-│   ├── index.md               # Home page
-│   ├── about/
-│   ├── leetcode/
-│   ├── job-search/
-│   └── learning/
-├── leetcode-solutions/        # LeetCode solution markdown files
-├── public/                    # Static assets
-│   └── resume.pdf
-└── package.json
-```
+Powered by VitePress & GitHub Pages
