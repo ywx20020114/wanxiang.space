@@ -8,124 +8,145 @@ title: About
 <div class="profile">
   <div class="avatar">郁</div>
   <h1>郁万祥</h1>
-  <p class="subtitle">25届应届生 · Java开发 · 天津</p>
+  <p class="subtitle">南开大学 · 软件工程硕士 · 24届</p>
   <div class="contact">
-    <span>📧 wanxiang.yu@outlook.com</span>
-    <span>📱 150-2250-8728</span>
+    <span>📧 yuwanxiang0114@163.com</span>
+    <span>📱 19815840515</span>
   </div>
 </div>
 
 ## 教育背景
 
-<div class="education">
-  <div class="edu-item">
-    <div class="edu-header">
-      <h3>南开大学</h3>
-      <span class="date">2022.09 - 2025.06</span>
-    </div>
-    <p class="degree">软件工程（学硕）</p>
-    <div class="edu-stats">
-      <span>初试: 338</span>
-      <span>复试: 82.4</span>
-      <span>排名: 11/52</span>
-    </div>
-  </div>
-</div>
+| 时间 | 学校 | 学历 | 专业 |
+|------|------|------|------|
+| 2024.09 - 至今 | 南开大学 | 硕士 | 软件工程 |
+| 2020.09 - 2024.06 | 南开大学 | 本科 | 软件工程 |
 
 ## 专业技能
 
 <div class="skills-grid">
   <div class="skill-category">
-    <h4>编程语言</h4>
+    <h4>后端技术</h4>
     <div class="tags">
       <span class="tag primary">Java</span>
-      <span class="tag">Python</span>
-      <span class="tag">C/C++</span>
-      <span class="tag">JavaScript</span>
-    </div>
-  </div>
-  <div class="skill-category">
-    <h4>框架&技术</h4>
-    <div class="tags">
-      <span class="tag primary">Spring Boot</span>
+      <span class="tag">Spring Boot</span>
       <span class="tag">MySQL</span>
       <span class="tag">Redis</span>
-      <span class="tag">RabbitMQ</span>
-      <span class="tag">Vue3</span>
+      <span class="tag">Kafka</span>
+      <span class="tag">MQTT</span>
     </div>
   </div>
   <div class="skill-category">
-    <h4>工具&其他</h4>
+    <h4>AI 应用</h4>
     <div class="tags">
-      <span class="tag">Linux</span>
-      <span class="tag">Git</span>
-      <span class="tag">数据库设计</span>
-      <span class="tag">SQL 优化</span>
-      <span class="tag">CET-4</span>
+      <span class="tag primary">LangChain</span>
+      <span class="tag">LangGraph</span>
+      <span class="tag">RAG</span>
+      <span class="tag">多模型调度</span>
     </div>
+  </div>
+  <div class="skill-category">
+    <h4>工具</h4>
+    <div class="tags">
+      <span class="tag">Claude Code</span>
+      <span class="tag">Cursor</span>
+      <span class="tag">Git</span>
+      <span class="tag">Linux</span>
+    </div>
+  </div>
+</div>
+
+## 研究经历
+
+<div class="section">
+  <div class="item">
+    <div class="item-header">
+      <h3>RAG检索增强与多智能体系统研究</h3>
+      <span class="date">2025.07 - 2025.12</span>
+    </div>
+    <ul class="details">
+      <li>基于 LangGraph 构建多智能体工作流，编排执行顺序与数据流向</li>
+      <li>角色化上下文压缩缩减65%对话长度，分级模型路由降低60% API成本</li>
+      <li>CoMRA 论文已被 <strong>SANER 2026 (CCF B)</strong> 接受</li>
+    </ul>
+  </div>
+</div>
+
+## 实习经历
+
+<div class="section">
+  <div class="item">
+    <div class="item-header">
+      <h3>Shopee-BJ · AI应用开发实习生</h3>
+      <span class="date">2025.12 - 至今</span>
+    </div>
+    <p class="project-title">多厂商 LLM 定价自动同步 Agent</p>
+    <ul class="details">
+      <li>基于 LangChain LCEL 搭建多步状态流水线：抓取 → 解析 → 差异计算 → MDX更新</li>
+      <li>设计两级名称映射策略 + 白名单闭集约束，确保LLM不产生幻觉</li>
+      <li>OpenClaw 定时任务编排，实现按日同步与变更通知</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <h3>青岛谷岳机器人 · 后端开发实习生</h3>
+      <span class="date">2024.09 - 2025.01</span>
+    </div>
+    <p class="project-title">智能工厂集中监控与可视化平台</p>
+    <ul class="details">
+      <li>MQTT + Kafka 数据缓冲，Redis Hash 缓存查询响应≤50ms</li>
+      <li>MySQL 批量写入压缩95%数据量，支撑历史趋势分析</li>
+      <li>WebSocket 毫秒级主动推送报警，端到端延迟≤50ms</li>
+    </ul>
   </div>
 </div>
 
 ## 项目经历
 
-<div class="projects">
-  <div class="project">
-    <div class="project-header">
-      <h3>校园论坛系统</h3>
-      <span class="date">2024.03 - 2024.06</span>
+<div class="section">
+  <div class="item">
+    <div class="item-header">
+      <h3>南开大学心理健康智能平台</h3>
+      <span class="date">2025.08 - 2025.11</span>
     </div>
-    <p class="project-desc">独立开发基于 Spring Boot + Vue3 的论坛系统</p>
-    <ul class="project-details">
-      <li>设计数据库，创建 RESTful API</li>
-      <li>实现 JWT 用户认证</li>
-      <li>开发 Vue3 前端页面</li>
+    <ul class="details">
+      <li>实时流式脱敏管道：正则 + NER 模型，"标签化脱敏"保障数据不落盘</li>
+      <li>大模型统一调用层：对话记忆 + 情绪标签 + 多模型自动降级</li>
+      <li>SSE 流式问答 API，端到端透传保障低延迟流畅交互</li>
     </ul>
   </div>
 
-  <div class="project">
-    <div class="project-header">
-      <h3>作业管理系统</h3>
-      <span class="date">2023.09 - 2023.11</span>
+  <div class="item">
+    <div class="item-header">
+      <h3>LLM Gateway · Prompts 模块</h3>
+      <span class="date">独立负责</span>
     </div>
-    <p class="project-desc">基于 Spring Boot + Vue3 + MySQL 的全栈应用</p>
-    <ul class="project-details">
-      <li>实现作业的增删改查、提交和批改功能</li>
-      <li>支持学生和教师两种角色权限</li>
-      <li>集成 ECharts 进行数据可视化</li>
+    <ul class="details">
+      <li>企业级 AI 提示词管理平台：版本管理、双格式渲染引擎</li>
+      <li>GORM 事务保证数据一致性，MySQL 唯一索引 + 409 重试处理并发</li>
+      <li>Redis 三级缓存 + 游标分页优化，查询从 2N+1 次降至 3 次</li>
     </ul>
   </div>
 </div>
 
-## 校园经历
+## 荣誉奖项
 
-<div class="experience">
-  <div class="exp-item">
-    <div class="exp-header">
-      <h4>南开大学研究生学生会</h4>
-      <span class="date">2023.09 - 2024.07</span>
-    </div>
-    <p>策划并执行 6 场校园活动，单场覆盖 300+ 学生 | 撰写 20+ 推文，总浏览量 20000+</p>
-  </div>
-  <div class="exp-item">
-    <div class="exp-header">
-      <h4>南开大学软件学院研究生学生会</h4>
-      <span class="date">2022.09 - 2023.07</span>
-    </div>
-    <p>参与组织 3 场校级活动 | 管理 2 个新媒体平台</p>
-  </div>
+<div class="awards">
+  <span class="award">🏆 南开大学软件学院企业实训"优秀个人"</span>
+  <span class="award">🎓 南开大学 2024、2025 公能奖学金</span>
+  <span class="award">🏅 南开大学 2025 文体奖学金</span>
 </div>
 
 ## 求职意向
 
 <div class="target">
-  <span class="target-item">🎯 职位：Java 开发</span>
-  <span class="target-item">📍 地点：天津 / 北京</span>
-  <span class="target-item">📅 可入职：2025 年</span>
+  <span>🎯 岗位：后端开发 / 大模型应用开发</span>
+  <span>📍 城市：北京</span>
+  <span>📅 状态：应届生 / 实习生</span>
 </div>
 
 ---
-
-[📄 下载 PDF 简历](/wanxiang.space/resume.pdf)
 
 <style scoped>
 .profile {
@@ -179,66 +200,23 @@ h2 {
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 1.05em;
   margin: 0;
 }
 
 h4 {
-  font-size: 0.95em;
-  margin: 0 0 8px;
-  color: var(--vp-c-text-2);
-}
-
-/* Education */
-.education {
-  margin: 20px 0;
-}
-
-.edu-item {
-  padding: 16px 20px;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-  margin-bottom: 12px;
-}
-
-.edu-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 4px;
-}
-
-.edu-header h3 {
-  color: var(--vp-c-brand-1);
-}
-
-.date {
-  color: var(--vp-c-text-2);
   font-size: 0.9em;
-}
-
-.degree {
-  margin: 4px 0 8px;
+  margin: 0 0 10px;
   color: var(--vp-c-text-2);
-}
-
-.edu-stats {
-  display: flex;
-  gap: 16px;
-  font-size: 0.9em;
-}
-
-.edu-stats span {
-  background: var(--vp-c-bg);
-  padding: 2px 10px;
-  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 /* Skills */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
   margin: 20px 0;
 }
 
@@ -266,65 +244,75 @@ h4 {
   color: white;
 }
 
-/* Projects */
-.projects {
+/* Section */
+.section {
   margin: 20px 0;
 }
 
-.project {
+.item {
   padding: 20px;
   background: var(--vp-c-bg-soft);
   border-radius: 8px;
   margin-bottom: 16px;
 }
 
-.project-header {
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.item-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 8px;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.project-desc {
+.item-header h3 {
+  color: var(--vp-c-brand-1);
+}
+
+.date {
+  color: var(--vp-c-text-2);
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.project-title {
   color: var(--vp-c-text-2);
   margin: 0 0 12px;
+  font-size: 0.95em;
 }
 
-.project-details {
+.details {
   margin: 0;
   padding-left: 20px;
 }
 
-.project-details li {
-  margin-bottom: 4px;
+.details li {
+  margin-bottom: 6px;
+  line-height: 1.6;
   color: var(--vp-c-text-2);
 }
 
-/* Experience */
-.experience {
+.details li:last-child {
+  margin-bottom: 0;
+}
+
+/* Awards */
+.awards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   margin: 20px 0;
 }
 
-.exp-item {
-  padding: 16px 0;
-  border-bottom: 1px solid var(--vp-c-divider);
-}
-
-.exp-item:last-child {
-  border-bottom: none;
-}
-
-.exp-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 4px;
-}
-
-.exp-item p {
-  margin: 0;
-  color: var(--vp-c-text-2);
-  font-size: 0.95em;
+.award {
+  background: var(--vp-c-bg-soft);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9em;
 }
 
 /* Target */
@@ -338,15 +326,25 @@ h4 {
   margin: 20px 0;
 }
 
-.target-item {
-  font-size: 1em;
+.target span {
+  font-size: 0.95em;
 }
 
-/* Footer */
-.footer {
-  margin-top: 40px;
-  text-align: center;
-  padding-top: 20px;
-  border-top: 1px solid var(--vp-c-divider);
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
 }
 </style>
