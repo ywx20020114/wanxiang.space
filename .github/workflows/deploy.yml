@@ -32,6 +32,7 @@ jobs:
 
       - name: Inject password
         run: |
+          echo "DEBUG: password is '$JOB_SEARCH_PASSWORD'"
           sed -i "s/__JOB_SEARCH_PASSWORD__/$JOB_SEARCH_PASSWORD/g" docs/job-search/index.md
         env:
           JOB_SEARCH_PASSWORD: ${{ secrets.JOB_SEARCH_PASSWORD }}
