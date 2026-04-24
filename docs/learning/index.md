@@ -39,6 +39,38 @@ title: Learning Records
 
 ---
 
+## 学习资料
+
+::: tip 持续更新
+以下是我收集的优质 Agent 学习资料，欢迎推荐更多！
+:::
+
+<div class="resources-grid">
+  <a href="https://github.com/adongwanai/AgentGuide/tree/main" class="resource-item" target="_blank">
+    <span class="resource-icon">📚</span>
+    <div class="resource-info">
+      <span class="resource-title">Agent 学习路线指南</span>
+      <span class="resource-desc">完整的 Agent 学习路径与资源汇总</span>
+    </div>
+  </a>
+  <a href="https://datawhalechina.github.io/hello-agents/#/" class="resource-item" target="_blank">
+    <span class="resource-icon">🤖</span>
+    <div class="resource-info">
+      <span class="resource-title">Hello Agent（Agent 系统的搭建）</span>
+      <span class="resource-desc">Datawhale 出品的 Agent 系统入门教程</span>
+    </div>
+  </a>
+  <a href="https://datawhalechina.github.io/all-in-rag/#/" class="resource-item" target="_blank">
+    <span class="resource-icon">🔍</span>
+    <div class="resource-info">
+      <span class="resource-title">RAG 技术全栈指南</span>
+      <span class="resource-desc">Datawhale 出品的 RAG 全面学习指南</span>
+    </div>
+  </a>
+</div>
+
+---
+
 ## 笔记列表
 
 | 标题 | 类别 | 日期 |
@@ -121,4 +153,41 @@ tr:hover { background: #f7fafc; }
 a { color: #3182ce; text-decoration: none; }
 a:hover { text-decoration: underline; }
 hr { border: none; border-top: 1px dashed #e2e8f0; margin: 32px 0; }
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 16px 0;
+}
+.resource-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px;
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+.resource-item:hover {
+  background: #edf2f7;
+  border-color: #3182ce;
+  transform: translateY(-2px);
+}
+.resource-icon { font-size: 1.5em; flex-shrink: 0; }
+.resource-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.resource-title {
+  font-weight: 600;
+  color: #1a365d;
+  font-size: 0.95em;
+}
+.resource-desc {
+  font-size: 0.85em;
+  color: #718096;
+}
 </style>
