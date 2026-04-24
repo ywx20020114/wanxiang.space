@@ -15,7 +15,8 @@ title: About
 <span class="tag-chip">南开大学</span>
 <span class="tag-chip">软件工程</span>
 <span class="tag-chip">硕士</span>
-<span class="tag-chip highlight">AI 应用开发</span>
+<span class="tag-chip highlight">后端开发</span>
+<span class="tag-chip highlight">大模型应用开发</span>
 </div>
 </div>
 </div>
@@ -25,6 +26,10 @@ title: About
 <span>19815840515</span>
 <span class="separator">·</span>
 <span>北京</span>
+<span class="separator">·</span>
+<span>24岁</span>
+<span class="separator">·</span>
+<span>男</span>
 </div>
 </header>
 
@@ -37,7 +42,7 @@ title: About
 <span class="obj-divider">/</span>
 <span class="obj-item">大模型应用开发</span>
 <span class="obj-divider">/</span>
-<span class="obj-item accent">应届生 · 可入职 2025</span>
+<span class="obj-item accent">应届生 · 可入职 2026</span>
 </div>
 
 ## 教育背景
@@ -56,46 +61,83 @@ title: About
 ## 研究经历
 
 <div class="research-card">
-<div class="paper-badge"><span>📄 Paper · SANER 2026 (CCF B)</span></div>
-<h3>RAG检索增强与多智能体系统研究</h3>
+<div class="paper-badge"><span>📄 Paper · SANER 2026 (CCF B 类)</span></div>
+<h3>RAG 检索增强与多智能体系统研究</h3>
 <p class="period">2025.07 - 2025.12</p>
 <ul>
-<li>基于 LangGraph 构建多智能体工作流，条件化循环边实现自动迭代优化</li>
-<li>角色化上下文压缩缩减 <span class="metric">65%</span> 对话长度，分级模型路由降低 <span class="metric">60%</span> API成本</li>
+<li>基于 LangGraph 构建有状态、可编排的多智能体工作流，通过有向状态图编排智能体执行顺序与数据流向，设计条件化循环边实现自动迭代优化</li>
+<li>优化 LLM 调用与成本控制：采用动态上下文管理 + 混合模型调度策略，角色化上下文压缩使平均对话长度缩减 <span class="metric">65%</span>；分级模型路由使 API 成本降低超 <span class="metric">60%</span></li>
+<li>搭建 RAG 检索增强生成系统，将迁移案例、API 文档、社区方案构建为多粒度向量知识库</li>
 </ul>
 </div>
 
 ## 技术栈
 
 <div class="skills-grid">
-<div class="skill-group"><h4>后端</h4><div class="skill-tags"><span class="skill-tag">Java</span><span class="skill-tag">Spring Boot</span><span class="skill-tag">MySQL</span><span class="skill-tag">Redis</span><span class="skill-tag">Kafka</span></div></div>
-<div class="skill-group"><h4>AI / LLM</h4><div class="skill-tags"><span class="skill-tag primary">LangChain</span><span class="skill-tag primary">LangGraph</span><span class="skill-tag primary">RAG</span></div></div>
-<div class="skill-group"><h4>工具</h4><div class="skill-tags"><span class="skill-tag">Claude Code</span><span class="skill-tag">Cursor</span><span class="skill-tag">Git</span><span class="skill-tag">Linux</span></div></div>
+<div class="skill-group"><h4>AI 编程</h4><div class="skill-tags"><span class="skill-tag primary">Claude Code</span><span class="skill-tag primary">Cursor</span></div></div>
+<div class="skill-group"><h4>AI / LLM</h4><div class="skill-tags"><span class="skill-tag primary">LangChain</span><span class="skill-tag primary">LangGraph</span><span class="skill-tag primary">RAG</span><span class="skill-tag primary">多智能体</span></div></div>
+<div class="skill-group"><h4>后端</h4><div class="skill-tags"><span class="skill-tag">Go (Gin)</span><span class="skill-tag">Redis</span><span class="skill-tag">MySQL</span><span class="skill-tag">MQTT</span><span class="skill-tag">Kafka</span></div></div>
+<div class="skill-group"><h4>存储</h4><div class="skill-tags"><span class="skill-tag">Neo4j</span><span class="skill-tag">Qdrant</span><span class="skill-tag">SQLite</span></div></div>
 </div>
 
 ## 实习经历
 
 <div class="exp-card">
-<div class="exp-header"><h3>Shopee-BJ</h3><span class="exp-badge">AI应用开发实习生</span></div>
-<p class="period">2025.12 - 至今</p>
-<h4>LLM Gateway 平台开发</h4>
-<p><strong>Prompts 模块</strong>：GORM 事务 + MySQL 唯一索引 + 409 重试 + Redis 三级缓存 + 游标分页查询</p>
-<p><strong>定价 Agent</strong>：LangChain LCEL 多步流水线 + ReAct 智能爬虫 + 白名单闭集反幻觉设计</p>
+<div class="exp-header"><h3>Shopee-BJ</h3><span class="exp-badge">AI 应用开发实习生</span></div>
+<p class="period">2025.12 - 2026.05</p>
+
+<h4>LLM Gateway 价格监控系统（0-1 设计实现）</h4>
+<p><strong>核心：</strong>Playwright 自动化 + ReAct 智能爬虫 + LLM 解析，实现 AI 厂商定价自动化抓取与 MDX 文档同步，数据 100% 官方来源、零幻觉。</p>
+
+<h4>ReAct 智能爬虫架构</h4>
+<p>基于 Observe→Think→Act 循环让 LLM 自主完成页面交互，替代硬编码规则，降低维护成本、提升适应性。</p>
+
+<h4>LLM 反幻安全体系</h4>
+<p>三级名称解析（AliasYAML→白名单→LM 闭集兜底），结合白名单约束、价格校验、多轮自纠正，杜绝幻觉。</p>
+
+<h4>MDX 文档自动更新</h4>
+<p>LLMUpdater + 自纠正 + 大表格分块策略，完成复杂表格语义级精准更新。</p>
 </div>
 
 <div class="exp-card">
-<div class="exp-header"><h3>青岛谷岳机器人</h3><span class="exp-badge secondary">后端开发实习生</span></div>
+<div class="exp-header"><h3>Shopee-BJ</h3><span class="exp-badge">大模型平台后端工程实习生</span></div>
+<p class="period">2025.12 - 2026.05</p>
+
+<h4>大模型统一调用网关（OpenAI 兼容 HTTP API）</h4>
+<p>面向内部业务提供 Chat/Responses 等统一调用入口，API Key 鉴权、项目路由、计费 / 额度 / 审计全打通；技术栈 Go (Gin)+Redis+MySQL。</p>
+
+<h4>Prompt 模块全链路设计实现</h4>
+<p>支持 Prompt / 版本管理、默认版本、按版本渲染，兼容 Chat/Responses 等多类型输出。</p>
+
+<h4>接入核心推理路径</h4>
+<p>在 Responses 接口支持 prompt_id 模式，先渲染再合并请求体，保证下游调用参数统一、错误对齐。</p>
+
+<h4>性能与一致性保障</h4>
+<p>Redis 缓存 Prompt 模板，删改时主动失效；解析回写实际版本号，确保 DB 与缓存一致。</p>
+
+<h4>审计对账打通</h4>
+<p>审计日志携带 prompt_id/version，实现版本可追溯、存储与日志一致。</p>
+</div>
+
+<div class="exp-card">
+<div class="exp-header"><h3>青岛谷岳机器人有限公司</h3><span class="exp-badge secondary">后端开发实习生</span></div>
 <p class="period">2024.09 - 2025.01</p>
-<p><strong>智能工厂集中监控平台</strong>：MQTT + Kafka 数据缓冲 + Redis Hash 查询响应 ≤50ms + WebSocket 毫秒级推送</p>
+
+<h4>智能工厂集中监控与可视化平台（接入上百台工业机器人）</h4>
+<p><strong>数据接入：</strong>基于 MQTT 接收设备数据，引入 Kafka 做缓冲层，保障数据不丢失。</p>
+<p><strong>数据处理：</strong>实时写入 Redis 缓存（查询响应≤50ms），分钟级聚合写入 MySQL，数据压缩 95%。</p>
+<p><strong>实时推送：</strong>维护 WebSocket 连接池，报警消息毫秒级推送，端到端延迟≤50ms。</p>
 </div>
 
 ## 项目经历
 
 <div class="project-card">
 <h3>南开大学心理健康智能平台</h3>
-<p class="period">2025.08 - 2025.11 · 核心开发成员</p>
-<p><strong>三层记忆系统</strong>：工作记忆(SQLite+Qdrant) + 情景记忆(Neo4j) + 语义记忆</p>
-<p><strong>其他</strong>：正则+NER 流式脱敏、混合检索重排、SSE 端到端透传</p>
+<p class="period">2025.08 - 2025.11 · 核心开发</p>
+<p><strong>实时流式脱敏管道：</strong>正则 + NER 混合识别敏感实体，纯内存处理、数据不落盘。</p>
+<p><strong>三层记忆架构：</strong>工作记忆（内存 TTL）、情景记忆（SQLite+Qdrant）、语义记忆（Neo4j 知识图谱），支撑多轮对话与历史回溯。</p>
+<p><strong>混合检索重排序：</strong>TF-IDF、向量 + 结构、向量 + 图遍历融合检索，实现三维加权排序。</p>
+<p><strong>大模型统一调用层：</strong>封装多模型适配与自动降级，结合情绪标签优化提示词；基于 SSE 实现流式传输，保障服务连续与低延迟。</p>
 </div>
 
 ## 荣誉奖项
